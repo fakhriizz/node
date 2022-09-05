@@ -1,0 +1,70 @@
+=============== Aug 29, 2022 (UTC) ===============
+12:54:33.677956 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:54:33.685573 db@open opening
+12:54:33.686391 version@stat F·[] S·0B[] Sc·[]
+12:54:33.688324 db@janitor F·2 G·0
+12:54:33.688354 db@open done T·2.759996ms
+=============== Aug 29, 2022 (UTC) ===============
+13:11:00.609903 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:11:00.610931 version@stat F·[] S·0B[] Sc·[]
+13:11:00.610962 db@open opening
+13:11:00.611021 journal@recovery F·1
+13:11:00.611578 journal@recovery recovering @1
+13:11:00.613972 memdb@flush created L0@2 N·15 S·2KiB "vt:,v15":"vt:,v1"
+13:11:00.614639 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+13:11:00.620663 db@janitor F·3 G·0
+13:11:00.620693 db@open done T·9.722406ms
+=============== Aug 30, 2022 (UTC) ===============
+00:02:32.013503 memdb@flush N·7167 S·3MiB
+00:02:32.035235 memdb@flush created L0@6 N·7167 S·1MiB "vt:,v7183":"vt:,v17"
+00:02:32.035304 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+00:02:32.037398 memdb@flush committed F·1 T·22.975677ms
+00:02:32.040517 journal@remove removed @3
+=============== Aug 30, 2022 (UTC) ===============
+08:16:40.476010 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:16:40.477590 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+08:16:40.477623 db@open opening
+08:16:40.477687 journal@recovery F·1
+08:16:40.478222 journal@recovery recovering @5
+08:16:40.513730 memdb@flush created L0@7 N·5276 S·779KiB "ser..VRz,v12458":"vtN..VRz,v7337"
+08:16:40.514391 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+08:16:40.520423 db@janitor F·5 G·0
+08:16:40.520455 db@open done T·42.823699ms
+=============== Sep 5, 2022 (UTC) ===============
+08:26:33.334755 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:26:33.335768 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+08:26:33.335800 db@open opening
+08:26:33.335863 journal@recovery F·1
+08:26:33.336442 journal@recovery recovering @8
+08:26:33.341014 memdb@flush created L0@10 N·118 S·19KiB "vt:,v12578":"vt:,v12461"
+08:26:33.341886 version@stat F·[4] S·1MiB[1MiB] Sc·[1.00]
+08:26:33.347794 db@janitor F·6 G·0
+08:26:33.347836 db@open done T·12.027199ms
+08:26:33.347888 table@compaction L0·4 -> L1·0 S·1MiB Q·12579
+08:26:33.373651 table@build created L1@13 N·3 S·754B "ser..VRz,v12458":"vtN..VRz,v12459"
+08:26:33.373687 version@stat F·[0 1] S·754B[0B 754B] Sc·[0.00 0.00]
+08:26:33.375317 table@compaction committed F-3 S-1MiB Ke·0 D·12573 T·27.406514ms
+08:26:33.375460 table@remove removed @7
+08:26:33.376215 table@remove removed @6
+08:26:33.376258 table@remove removed @2
+=============== Sep 5, 2022 (UTC) ===============
+16:06:01.685328 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:06:01.686275 version@stat F·[0 1] S·754B[0B 754B] Sc·[0.00 0.00]
+16:06:01.686294 db@open opening
+16:06:01.686492 journal@recovery F·1
+16:06:01.687061 journal@recovery recovering @11
+16:06:01.691308 memdb@flush created L0@14 N·87 S·15KiB "vt:,v12666":"vt:,v12580"
+16:06:01.691974 version@stat F·[1 1] S·16KiB[15KiB 754B] Sc·[0.25 0.00]
+16:06:01.699136 db@janitor F·5 G·1
+16:06:01.699167 db@janitor removing table-10
+16:06:01.699294 db@open done T·12.994038ms
+=============== Sep 5, 2022 (UTC) ===============
+16:51:41.286289 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:51:41.288258 version@stat F·[1 1] S·16KiB[15KiB 754B] Sc·[0.25 0.00]
+16:51:41.288289 db@open opening
+16:51:41.288393 journal@recovery F·1
+16:51:41.288932 journal@recovery recovering @15
+16:51:41.300491 memdb@flush created L0@17 N·486 S·92KiB "ser..VRz,v13152":"vtN..VRz,v13042"
+16:51:41.301170 version@stat F·[2 1] S·109KiB[108KiB 754B] Sc·[0.50 0.00]
+16:51:41.307858 db@janitor F·5 G·0
+16:51:41.307898 db@open done T·19.601722ms

@@ -1,0 +1,75 @@
+=============== Aug 29, 2022 (UTC) ===============
+12:54:09.662534 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:54:09.671538 db@open opening
+12:54:09.737136 version@stat F·[] S·0B[] Sc·[]
+12:54:09.876720 db@janitor F·2 G·0
+12:54:09.876762 db@open done T·205.206863ms
+12:55:48.203235 db@close closing
+12:55:48.203323 db@close done T·75.925µs
+=============== Aug 29, 2022 (UTC) ===============
+13:10:54.632475 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:10:54.638072 version@stat F·[] S·0B[] Sc·[]
+13:10:54.638112 db@open opening
+13:10:54.638183 journal@recovery F·1
+13:10:54.639963 journal@recovery recovering @1
+13:10:54.647101 memdb@flush created L0@2 N·3 S·265B "\x00\x02e..on:,v1":"\x00\x02p..\x1e\xe5q,d2"
+13:10:54.648920 version@stat F·[1] S·265B[265B] Sc·[0.25]
+13:10:54.657464 db@janitor F·3 G·0
+13:10:54.657489 db@open done T·19.369534ms
+=============== Aug 30, 2022 (UTC) ===============
+08:02:12.386824 db@close closing
+08:02:12.387762 db@close done T·949.752µs
+=============== Aug 30, 2022 (UTC) ===============
+08:16:34.698901 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:16:34.705564 version@stat F·[1] S·265B[265B] Sc·[0.25]
+08:16:34.705620 db@open opening
+08:16:34.705696 journal@recovery F·1
+08:16:34.706238 journal@recovery recovering @3
+08:16:34.715434 memdb@flush created L0@5 N·235 S·1KiB "\x00\x02e..on:,v237":"\x00\x02p..\x1e\xe5q,d138"
+08:16:34.716111 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+08:16:34.732167 db@janitor F·4 G·0
+08:16:34.732204 db@open done T·26.574933ms
+08:27:23.426670 db@close closing
+08:27:23.427327 db@close done T·654.413µs
+=============== Sep 5, 2022 (UTC) ===============
+08:26:26.322718 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:26:26.323733 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+08:26:26.323756 db@open opening
+08:26:26.323851 journal@recovery F·1
+08:26:26.332503 journal@recovery recovering @6
+08:26:26.357591 memdb@flush created L0@8 N·5 S·281B "\x00\x02e..on:,v245":"\x00\x02p..\x1e\xe5q,d243"
+08:26:26.384434 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+08:26:26.395430 db@janitor F·5 G·0
+08:26:26.395459 db@open done T·71.69144ms
+08:34:25.226474 db@close closing
+08:34:25.239138 db@close done T·12.663325ms
+=============== Sep 5, 2022 (UTC) ===============
+16:05:54.728014 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:05:54.729198 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+16:05:54.729239 db@open opening
+16:05:54.729373 journal@recovery F·1
+16:05:54.740723 journal@recovery recovering @9
+16:05:54.752373 memdb@flush created L0@11 N·4 S·276B "\x00\x02e..on:,v248":"\x00\x02p..\x1e\xe5q,d249"
+16:05:54.761842 version@stat F·[4] S·2KiB[2KiB] Sc·[1.00]
+16:05:54.773498 db@janitor F·6 G·0
+16:05:54.773600 db@open done T·44.353154ms
+16:05:54.773705 table@compaction L0·4 -> L1·0 S·2KiB Q·251
+16:05:54.826772 table@build created L1@14 N·4 S·248B "\x00\x02e..on:,v248":"\x00\x02n..0.4,v244"
+16:05:54.826927 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+16:05:54.855044 table@compaction committed F-3 S-2KiB Ke·0 D·243 T·81.287669ms
+16:05:54.856234 table@remove removed @8
+16:05:54.858019 table@remove removed @5
+16:05:54.858065 table@remove removed @2
+16:49:35.247479 db@close closing
+16:49:35.248726 db@close done T·1.245736ms
+=============== Sep 5, 2022 (UTC) ===============
+16:51:31.904488 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:51:31.905717 version@stat F·[0 1] S·248B[0B 248B] Sc·[0.00 0.00]
+16:51:31.905764 db@open opening
+16:51:31.905870 journal@recovery F·1
+16:51:31.907607 journal@recovery recovering @12
+16:51:31.910307 memdb@flush created L0@15 N·13 S·345B "\x00\x02e..on:,v262":"\x00\x02p..\x1e\xe5q,d258"
+16:51:31.912610 version@stat F·[1 1] S·593B[345B 248B] Sc·[0.25 0.00]
+16:51:31.919635 db@janitor F·5 G·1
+16:51:31.919650 db@janitor removing table-11
+16:51:31.919709 db@open done T·13.936689ms

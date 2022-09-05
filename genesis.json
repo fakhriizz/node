@@ -1,0 +1,39 @@
+{
+  "config": {
+    "homesteadBlock": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "eip145Block": 0,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "chainId": 9705,
+    "posa": {
+      "period": 3,
+      "epoch": 100,
+      "sealerbalancethreshold": 0
+    }
+  },
+  "nonce": "0x0",
+  "timestamp": "0x630743e6",
+  "extraData": "0x00000000000000000000000000000000000000000000000000000000000000000bfa300c5e3ae73dce81fe95653e80aa88f1aacc5da5b8cc83285ec3defef17dd335bdfae5898214df46be5ec52bb359c84140aed6cad8074960d8c90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit": "0x47b760",
+  "difficulty": "0x1",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "alloc": {
+    "0bfa300c5e3ae73dce81fe95653e80aa88f1aacc": {
+      "balance": "0x845951614014880000000"
+    },
+    "5da5b8cc83285ec3defef17dd335bdfae5898214": {
+      "balance": "0x845951614014880000000"
+    },
+    "df46be5ec52bb359c84140aed6cad8074960d8c9": {
+      "balance": "0x845951614014880000000"
+    }
+  },
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "baseFeePerGas": null
+}
